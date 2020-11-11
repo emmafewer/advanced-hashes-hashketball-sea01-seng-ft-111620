@@ -229,9 +229,9 @@ def winning_team
       home_team_score << key[:points]
     end
   if away_team_score.sum > home_team_score.sum
-    puts game_hash[:away][:team_name]
+    p game_hash[:away][:team_name]
   else 
-    puts game_hash[:home][:team_name]
+    p game_hash[:home][:team_name]
   end
 end
 
